@@ -13,12 +13,36 @@ public class Funcionario {
 	private Cargo cargo;
 	private BigDecimal salario;
 	private LocalDate dataUltimoReajuste;
+	private String cep;
+	private String logradouro;
 
-	public Funcionario(String nome, String cpf, Cargo cargo, BigDecimal salario) {
+	private String bairro;
+
+	private String cidade;
+
+	private String uf;
+
+	public Funcionario(String nome, String cpf, Cargo cargo, BigDecimal salario, String cep, String logradouro, String bairro, String cidade, String uf) {
 		this.nome = nome;
 		this.cpf = cpf;
 		this.cargo = cargo;
 		this.salario = salario;
+		this.cep = cep;
+		this.logradouro = logradouro;
+		this.bairro = bairro;
+		this.cidade = cidade;
+		this.uf = uf;
+	}
+
+	public void formatarCpf(){
+		// logica para formatar CPF
+	}
+	public void formatarCep(){
+		// logica para formatar CPF
+	}
+
+	public void completarEndereco(){
+		// logica para completar Endereco
 	}
 
 	public void reajustarSalario(BigDecimal aumento) {
