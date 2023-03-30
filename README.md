@@ -3,10 +3,11 @@ Projeto para documentação do treinamento de [formação arquitetura design pro
 Veja mais informações das lições aprendidas na [Wiki](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/wiki)
 
 ## Conteúdo
-* [Boas práticas de código](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/tree/configuracoes-iniciais#boas-pr%C3%A1ticas-de-c%C3%B3digo)
+* [Boas práticas de código](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java#boas-pr%C3%A1ticas-de-c%C3%B3digo)
 
 >### Boas práticas de código
 
 * [Padrão Tell, don't ask e Fail Fast](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/1)
 * [Padrão Fail Fast](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/55)
+* [Coesão](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/2)
 
