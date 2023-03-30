@@ -10,4 +10,5 @@ Veja mais informações das lições aprendidas na [Wiki](https://github.com/jal
 * [Padrão Tell, don't ask e Fail Fast](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/1)
 * [Padrão Fail Fast](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/55)
 * [Coesão](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/2)
+* [Encapsulamento](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/58)
 
