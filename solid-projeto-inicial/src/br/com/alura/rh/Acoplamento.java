@@ -10,14 +10,5 @@ import java.util.List;
 public class Acoplamento {
 
     Funcionario funcionario = new Funcionario("nome", "wrwe", Cargo.ANALISTA, new BigDecimal("33"));
-
-    double valorTotalReajustes = 0;
-    List<Reajuste> reajustes = funcionario.getReajustes();
-
-    {
-        for (Reajuste r : reajustes) {
-            valorTotalReajustes += r.getValor();
-        }
-    }
-
+    double reajustes = funcionario.getValorTotalRecebidoEmReajustes();
 }
