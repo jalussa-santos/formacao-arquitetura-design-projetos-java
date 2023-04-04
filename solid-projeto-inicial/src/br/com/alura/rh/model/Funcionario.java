@@ -69,7 +69,7 @@ public class Funcionario {
         this.dataUltimoReajuste = dataUltimoReajuste;
     }
 
-    public List<Reajuste> getReajustes() {
+    private List<Reajuste> getReajustes() {
         return null;
     }
 
