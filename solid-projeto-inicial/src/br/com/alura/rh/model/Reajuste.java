@@ -4,10 +4,10 @@ import java.util.List;
 
 public class Reajuste {
 
-    private List<Double> reajuste;
+    private List<Double> valor;
 
-    public Reajuste(List<Double> reajuste) {
-        this.reajuste = reajuste;
+    public Reajuste(List<Double> valor) {
+        this.valor = valor;
     }
 
     public double getValor() {
