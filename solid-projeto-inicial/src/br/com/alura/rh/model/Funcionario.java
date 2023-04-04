@@ -72,4 +72,14 @@ public class Funcionario {
     public List<Reajuste> getReajustes() {
         return null;
     }
+
+    public double getValorTotalRecebidoEmReajustes() {
+
+        double valorTotalReajustes = 0;
+
+            for (Reajuste r : getReajustes()) {
+                valorTotalReajustes += r.getValor();
+            }
+            return valorTotalReajustes;
+    }
 }
