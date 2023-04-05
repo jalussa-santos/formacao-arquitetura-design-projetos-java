@@ -11,4 +11,7 @@ Veja mais informações das lições aprendidas na [Wiki](https://github.com/jal
 * [Padrão Fail Fast](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/55)
 * [Coesão](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/2)
 * [Encapsulamento](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/58)
+* [Acoplamento](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/59)
+###### SOLID - Melhorando a coesão
+  * [Princípio de Responsabilidade Única (SRP)](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/3)
 
