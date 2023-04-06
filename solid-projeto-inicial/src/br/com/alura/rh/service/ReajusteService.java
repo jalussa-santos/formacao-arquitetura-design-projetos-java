@@ -1,4 +1,4 @@
-package br.com.alura.rh.service.reajuste;
+package br.com.alura.rh.service;
 
 import br.com.alura.rh.model.Funcionario;
 
