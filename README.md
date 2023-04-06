@@ -15,3 +15,6 @@ Veja mais informações das lições aprendidas na [Wiki](https://github.com/jal
 ###### SOLID - Melhorando a coesão
   * [Princípio de Responsabilidade Única (SRP)](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/3)
 
+###### SOLID - Reduzindo o acoplamento
+  * [Princípio Aberto/Fechado (OCP)](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/17)
+
