@@ -18,3 +18,6 @@ Veja mais informações das lições aprendidas na [Wiki](https://github.com/jal
 ###### SOLID - Reduzindo o acoplamento
   * [Princípio Aberto/Fechado (OCP)](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/17)
 
+###### SOLID - Resolvendo herança indesejada
+* [Princípio de Substituição de Liskov (LSP)](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/18)
+
