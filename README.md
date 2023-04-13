@@ -22,4 +22,5 @@ Veja mais informações das lições aprendidas na [Wiki](https://github.com/jal
 * [Princípio de Substituição de Liskov (LSP)](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/18)
 
 ###### SOLID - Trabalhando com abstrações
+* [Princípio da Segregação de Interface (ISP)](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/73)
 * [Princípio da Inversão de Dependências (DIP)](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/19)
