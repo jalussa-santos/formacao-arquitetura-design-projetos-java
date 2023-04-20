@@ -4,6 +4,7 @@ Veja mais informações das lições aprendidas na [Wiki](https://github.com/jal
 
 ## Conteúdo
 * [Boas práticas de código](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java#boas-pr%C3%A1ticas-de-c%C3%B3digo)
+* [Modelagem e padrões](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java#modelagem-e-padr%C3%B5es)
 
 >### Boas práticas de código
 
@@ -24,3 +25,9 @@ Veja mais informações das lições aprendidas na [Wiki](https://github.com/jal
 ###### SOLID - Trabalhando com abstrações
 * [Princípio da Segregação de Interface (ISP)](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/73)
 * [Princípio da Inversão de Dependências (DIP)](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/19)
+
+>### Modelagem e padrões
+
+###### Design Patterns
+
+* [Strategy](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/5)
