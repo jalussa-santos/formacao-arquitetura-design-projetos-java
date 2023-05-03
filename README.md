@@ -33,3 +33,4 @@ Veja mais informações das lições aprendidas na [Wiki](https://github.com/jal
 * [Strategy](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/5)
 * [Chain of Responsibility](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/6)
 * [Template Method](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/7)
+* [State](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/8)
