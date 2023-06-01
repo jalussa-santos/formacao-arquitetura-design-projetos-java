@@ -1,20 +1,24 @@
 package br.com.alura.loja.pedido;
 
 import br.com.alura.loja.orcamento.Orcamento;
+import br.com.alura.loja.pedido.acoes.AcaoAposGerarPedido;
 import java.time.LocalDateTime;
+import java.util.List;
 
 public class GeraPedidoHandler {
 
-  // construtor com injecao de dependencia: repoitory, service
+  private List<AcaoAposGerarPedido> acoesAposGerarPedido;
 
-  public void executa(GeraPedido dados) {
-    Orcamento orcamento = new Orcamento(dados.getValorOrcamento(), dados.getQuantidadeItens());
-    LocalDateTime data = LocalDateTime.now();
+  // injecao de dependencias para servicos de infra
+  public GeraPedidoHandler(List<AcaoAposGerarPedido> acoesAposGerarPedidos) {
+    acoesAposGerarPedido = acoesAposGerarPedidos;
+  }
 
-    Pedido pedido = new Pedido(dados.getCliente(), data, orcamento);
+  public void executar(GeraPedido geraPedido) {
+    Orcamento orcamento = new Orcamento(geraPedido.getValorOrcamento(), geraPedido.getQuantidadeItens());
+    Pedido pedido = new Pedido(geraPedido.getCliente(), LocalDateTime.now(), orcamento);
 
-    System.out.println("Método de Salvar pedido no banco de dados");
-    System.out.println("Método de Enviar e-mail com dado do novo pedido");
+    this.acoesAposGerarPedido.forEach(a -> a.executarAcao(pedido));
   }
 
 }
