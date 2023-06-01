@@ -21,5 +21,4 @@ class TestesPedidos {
         new CriarPedidoNoBanco()));
     handler.executar(gerador);
   }
-
 }
