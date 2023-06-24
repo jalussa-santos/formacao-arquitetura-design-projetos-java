@@ -22,7 +22,5 @@ public abstract class Imposto {
       valorDoOutroImposto = outro.realizarCalculo(orcamento);
     }
     return valorImposto.add(valorDoOutroImposto);
-
   }
-
 }
