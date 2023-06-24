@@ -9,6 +9,7 @@ public class ICMSComISS {
     BigDecimal icms = new ICMS().calcular(orcamento);
     BigDecimal iss = new ISS().calcular(orcamento);
     return icms.add(iss);
+
   }
 
 }
