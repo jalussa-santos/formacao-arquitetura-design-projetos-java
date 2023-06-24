@@ -28,7 +28,9 @@ Veja mais informações das lições aprendidas na [Wiki](https://github.com/jal
 
 >### Modelagem e padrões
 
-###### Design Patterns
+###### Design Patterns 
+
+##### Padrões comportamentais
 
 * [Strategy](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/5)
 * [Chain of Responsibility](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/6)
@@ -36,3 +38,7 @@ Veja mais informações das lições aprendidas na [Wiki](https://github.com/jal
 * [State](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/8)
 * [Command Handlers](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/9)
 * [Observer](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/10)
+
+##### Padrões estruturais
+
+* [Adapters](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/11)
