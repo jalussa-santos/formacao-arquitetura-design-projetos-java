@@ -6,8 +6,10 @@ import java.util.Map;
 
 public class HttpClient implements HttpAdapter {
 
+  String url = "http://api.externa/orcamento";
+
   @Override
-  public void post(String url, Map<String, Object> dados) {
+  public void post(Map<String, Object> dados) {
     try {
       URL urlApi = new URL(url);
       URLConnection connection = urlApi.openConnection();
