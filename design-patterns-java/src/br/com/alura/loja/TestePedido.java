@@ -7,7 +7,7 @@ import br.com.alura.loja.pedido.acoes.EnviarPedidoPorEmail;
 import java.math.BigDecimal;
 import java.util.Arrays;
 
-class TestesPedidos {
+class TestePedido {
 
   public static void main(String[] args) {
 
