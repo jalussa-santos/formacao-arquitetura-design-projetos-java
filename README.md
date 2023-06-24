@@ -42,3 +42,4 @@ Veja mais informações das lições aprendidas na [Wiki](https://github.com/jal
 ##### Padrões estruturais
 
 * [Adapters](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/11)
+* [Decorator](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/12)
