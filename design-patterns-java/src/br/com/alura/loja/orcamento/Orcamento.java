@@ -7,10 +7,10 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Orcamento {
+public class Orcamento implements Orcavel {
 
   private BigDecimal valor;
-  private List<ItemOrcamento> itens;
+  private List<Orcavel> itens;
 
   private SituacaoOrcamento situacao;
 
@@ -57,8 +57,8 @@ public class Orcamento {
     return situacao instanceof Finalizado;
   }
 
-  public void adicionarItem(ItemOrcamento item) {
-    this.valor = valor.add(item.getValor());
-
+  public void adicionarItem(Orcavel item) {
+    this.valor = this.valor.add(item.getValor());
+    this.itens.add(item);
   }
 }
