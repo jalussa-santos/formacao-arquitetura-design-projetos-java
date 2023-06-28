@@ -1,8 +1,6 @@
 package br.com.alura.loja.pedido;
 
-import br.com.alura.loja.orcamento.Orcamento;
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
 
 public class GeraPedido {
 
