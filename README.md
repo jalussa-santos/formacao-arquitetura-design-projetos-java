@@ -45,3 +45,4 @@ Veja mais informações das lições aprendidas na [Wiki](https://github.com/jal
 * [Decorator](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/12)
 * [Composite](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/13)
 * [Facade](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/14)
+* [Proxy ](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/15)
