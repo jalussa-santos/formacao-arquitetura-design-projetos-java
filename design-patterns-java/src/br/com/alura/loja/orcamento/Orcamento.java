@@ -23,10 +23,10 @@ public class Orcamento implements Orcavel {
   public BigDecimal getValor() {
     try {
       Thread.sleep(2000);
+      return this.valor;
     } catch (InterruptedException e) {
       throw new RuntimeException(e);
     }
-    return this.valor;
   }
 
   public int getQuantidadeItens() {
