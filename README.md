@@ -5,6 +5,7 @@ Veja mais informações das lições aprendidas na [Wiki](https://github.com/jal
 ## Conteúdo
 * [Boas práticas de código](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java#boas-pr%C3%A1ticas-de-c%C3%B3digo)
 * [Modelagem e padrões](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java#modelagem-e-padr%C3%B5es)
+* [Testes](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java#testes)
 
 >### Boas práticas de código
 
@@ -46,3 +47,11 @@ Veja mais informações das lições aprendidas na [Wiki](https://github.com/jal
 * [Composite](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/13)
 * [Facade](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/14)
 * [Proxy](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/15)
+
+>### Testes
+
+###### TDD e Java
+
+* [Junit](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/23)
+* [TDD](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/24)
+* [Exceptions](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/25)
