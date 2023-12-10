@@ -1,11 +1,18 @@
 package junit;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import br.com.alura.tdd.modelo.Calculadora;
+import org.junit.jupiter.api.Test;
 
-public class CalculadoraTest {
+class CalculadoraTest {
 
-  Calculadora calculadora = new Calculadora();
+  @Test
+  void deveriaSomarDoisNumerosPositivos() {
 
-  int soma = calculadora.somar(3, 7);
-  System.out.println(soma);
+    Calculadora calculadora = new Calculadora();
+    int soma = calculadora.somar(3, 7);
+
+    assertEquals(10, soma);
+  }
 }
