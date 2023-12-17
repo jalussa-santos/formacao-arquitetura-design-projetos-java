@@ -2,6 +2,7 @@ package br.com.alura.tdd.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.fail;
 
 import br.com.alura.tdd.modelo.Funcionario;
 import java.math.BigDecimal;
@@ -24,6 +25,7 @@ class BonusServiceTest {
 
     try {
       funcionarioComSalario(new BigDecimal("25000"));
+      fail("Não deu a exception!");
     } catch (Exception e) {
       assertEquals(excecaoEsperada, e.getMessage());
     }
