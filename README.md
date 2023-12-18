@@ -50,8 +50,12 @@ Veja mais informações das lições aprendidas na [Wiki](https://github.com/jal
 
 >### Testes
 
-###### TDD e Java
+###### Junit
 
-* [Junit](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/23)
+* [Introdução ao Junit](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/23)
+* [Verificando Exceptions](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/25)
+* [Removendo duplicidade com @BeforeEach, @AfterEach, @BeforeAll e @AfterAll](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/26)
+
+###### TDD
+
 * [TDD](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/24)
-* [Exceptions](https://github.com/jalussa-santos/formacao-arquitetura-design-projetos-java/issues/25)
