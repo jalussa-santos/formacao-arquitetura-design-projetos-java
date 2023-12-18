@@ -6,15 +6,42 @@ import br.com.alura.tdd.modelo.Desempenho;
 import br.com.alura.tdd.modelo.Funcionario;
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class ReajusteServiceTest {
 
+  private ReajusteService service;
+  private Funcionario funcionario;
+
+  @BeforeEach
+  public void inicializar() {
+    System.out.println("Executa no início de cada teste");
+
+    this.service = new ReajusteService();
+    this.funcionario = new Funcionario("Ana", LocalDate.now(), new BigDecimal("1000"));
+  }
+
+  @AfterEach
+  public void finalizar() {
+    System.out.println("Executa no fim de cada teste");
+  }
+
+  @BeforeAll
+  public static void antesDeTodos() {
+    System.out.println("Executa ANTES DE TODOS");
+  }
+
+  @AfterAll
+  public static void depoisDeTodos() {
+    System.out.println("Executa DEPOIS DE TODOS");
+  }
+
   @Test
   void reajusteDeveriaSerDeTresPorcentoQuandoDesempenhoForADesejar() {
-
-    ReajusteService service = new ReajusteService();
-    Funcionario funcionario = funcionarioComSalario(new BigDecimal("1000"));
 
     service.concederReajuste(funcionario, Desempenho.A_DESEJAR);
 
@@ -24,9 +51,6 @@ class ReajusteServiceTest {
   @Test
   void reajusteDeveriaSerDeQuinzePorcentoQuandoDesempenhoForBom() {
 
-    ReajusteService service = new ReajusteService();
-    Funcionario funcionario = funcionarioComSalario(new BigDecimal("1000.00"));
-
     service.concederReajuste(funcionario, Desempenho.BOM);
 
     assertEquals(new BigDecimal("1150.00"), funcionario.getSalario());
@@ -35,16 +59,8 @@ class ReajusteServiceTest {
   @Test
   void reajusteDeveriaSerDeVintePorcentoQuandoDesempenhoForOtimo() {
 
-    ReajusteService service = new ReajusteService();
-    Funcionario funcionario = funcionarioComSalario(new BigDecimal("1000.00"));
-
     service.concederReajuste(funcionario, Desempenho.OTIMO);
 
     assertEquals(new BigDecimal("1200.00"), funcionario.getSalario());
-  }
-
-  private Funcionario funcionarioComSalario(BigDecimal salario) {
-
-    return new Funcionario("Ana", LocalDate.now(), salario);
   }
 }
